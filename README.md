@@ -25,7 +25,7 @@ recommendation a non-technical stakeholder can act on immediately.
 
 **The Data:**
 
-Primary — Marketing A/B Testing
+Primary - Marketing A/B Testing
 kaggle datasets download -d faviovaz/marketing-ab-testing
 
 588,101 real users randomly assigned to see either an ad or a neutral
@@ -33,11 +33,11 @@ Public Service Announcement (PSA). Binary outcome: did they convert?
 This is a genuine randomised controlled experiment — causal conclusions
 are valid here.
 
-Extension — Clicks Conversion Tracking
+Extension - Clicks Conversion Tracking
 kaggle datasets download -d loveall/clicks-conversion-tracking
 
 1,143 records from three real Facebook ad campaigns. Contains actual
-Impressions and Clicks columns — this is where literal
+Impressions and Clicks columns - this is where literal
 CTR = Clicks ÷ Impressions is computed. Observational data —
 associations only, no causal claims.
 
@@ -46,7 +46,7 @@ associations only, no causal claims.
 1. Setup & Data Sourcing
 2.  Business framing, hypotheses & OEC definition, 
 3. Data quality checks - missing values, duplicates, SRM test 
-4. Frequentist hypothesis testing — z-test, effect size & CI
+4. Frequentist hypothesis testing - z-test, effect size & CI
 5. Bayesian A/B testing - Beta-Binomial model, P(ad > PSA)
 6. Segment analysis - day & hour level, BH correction
 7. Power analysis - required N, achieved power, MDE
