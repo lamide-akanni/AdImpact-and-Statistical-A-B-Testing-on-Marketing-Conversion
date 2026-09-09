@@ -12,7 +12,7 @@ A Marketing Campaign project on real data, from hypothesis to business decision.
 
 What This Project Is;
 
-Most **A/B testing** stop at "run a z-test and check if p < 0.05."
+Most **A/B testing** stops at "run a z-test and check if p < 0.05."
 This project doesn't. It walks through the full lifecycle of a real
 marketing experiment, the kind of rigorous, defensible analysis that
 actually informs a go/no-go decision at a company, not just a notebook.
