@@ -158,7 +158,7 @@ Four steps:
 
 -  Schedule and automate: the pipeline runs on a schedule via a workflow tool like Airflow. It pulls fresh experiment data, runs the tests automatically, and pushes results to a dashboard or Slack alert when the experiment reaches a decision point.
 
-**Notebooks are designed for experimentation and validation, answering the question, "Does this work?" Production focuses on automation, reliability, and consistency, ensuring the process runs successfully every day without manual input.**
+*Notebooks are designed for experimentation and validation, answering the question, "Does this work?" Production focuses on automation, reliability, and consistency, ensuring the process runs successfully every day without manual input.*
 
 
 
