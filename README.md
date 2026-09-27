@@ -134,7 +134,7 @@ Best days by conversion rate lift: Tuesday (+1.60pp), Monday, Wednesday - all si
 
 Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524, 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
 
-**Q9:** Facebook data is observational — what does that mean?
+**Q9:** Facebook data is observational - what does that mean?
 
 We can identify associations, not causes. No random assignment means confounding factors may explain CTR differences. Correct language: campaigns are associated with different CTRs and not that they caused them.
 
