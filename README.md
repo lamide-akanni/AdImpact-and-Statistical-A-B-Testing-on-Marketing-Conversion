@@ -138,7 +138,7 @@ Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PS
 
 We can identify associations, not causes. No random assignment means confounding factors may explain CTR differences. Correct language: campaigns are associated with different CTRs and not that they caused them.
 
-Q10: Final business recommendation?
+**Q10:** Final business recommendation?
 
 Unambiguously: ship the ad. Ad CR 2.555% vs PSA 1.785%, +0.77pp lift, P(Ad > PSA) = 100%, CI entirely above zero. All checks passed. Prioritise Tuesday–Wednesday, 11am–2pm for maximum impact.
 
