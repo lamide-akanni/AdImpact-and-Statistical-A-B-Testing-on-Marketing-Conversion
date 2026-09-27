@@ -60,7 +60,7 @@ associations only, no causal claims.
 Metric Value - Ad Conversion Rate 2.555% & PSA Conversion Rate 1.785%, Absolute Lift +0.77pp, Relative Lift + 43.1% 
 Z-statistic 7.37 p-value<0.000001 P(Ad > PSA) — Bayesian 100%, 95% CI [0.59pp, 0.94pp] Achieved. Power 100% Best performing day Tuesday (+1.60pp lift) Best performing hours: 11 am, 1pm, 2pm, 8pm.
 
-**Recommendation** - Ship the ad. Prioritise Tuesday - Wednesday, 11am - 2pm.
+**Recommendation - Ship the ad. Prioritise Tuesday - Wednesday, 11am - 2pm.**
 
 **Overall Verdict**
 The ad outperforms the PSA across every analytical framework applied Frequentist Hypothesis Testing, Bayesian, and Segment Level. Both the primary randomized experiment and the Facebook-CTR-extension support the same conclusion.
