@@ -58,7 +58,7 @@ associations only, no causal claims.
 **Key Results**
 
 Metric Value - Ad Conversion Rate 2.555% & PSA Conversion Rate 1.785%, Absolute Lift +0.77pp, Relative Lift + 43.1% 
-Z-statistic 7.37 p-value<0.000001 P(Ad > PSA) - Bayesian 100%, 95% CI [0.59pp, 0.94pp] Achieved. Power 100% Best performing day Tuesday (+1.60pp lift) Best performing hours: 11 am, 1pm, 2pm, 8pm.
+Z-statistic 7.37 p-value<0.000001 P(Ad > PSA) - Bayesian > 99.9%, 95% CI [0.59pp, 0.94pp] Achieved. Power > 99.9% Best performing day Tuesday (+1.60pp lift) Best performing hours: 11 am, 1pm, 2pm, 8pm.
 
 **Recommendation - Ship the ad. Prioritise Tuesday - Wednesday, 11am - 2pm.**
 
@@ -120,7 +120,7 @@ The probability of observing a result at least this extreme if H₀ were true. N
 
 **Q5:** What did Bayesian add that frequentist couldn't?
 
-Frequentist gives a binary decision: reject H₀ or not. Bayesian gives a direct probability: P(Ad > PSA) = 100%. A stakeholder can act on 100% immediately - they can't easily act on p < 0.000001 without explanation.
+Frequentist gives a binary decision: reject H₀ or not. Bayesian gives a direct probability: P(Ad > PSA) > 99.9%. A stakeholder can act on 100% immediately - they can't easily act on p < 0.000001 without explanation.
 
 **Q6:** What is the multiple testing problem and how did you handle it?
 
@@ -132,7 +132,7 @@ Best days by conversion rate lift: Tuesday (+1.60pp), Monday, Wednesday - all si
 
 **Q8:** Was the experiment adequately powered?
 
-Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524, 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
+Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524, 18x the minimum. Achieved power: > 99.9%. PSA group was the binding constraint, not the ad group.
 
 **Q9:** Facebook data is observational - what does that mean?
 
@@ -140,7 +140,7 @@ We can identify associations, not causes. No random assignment means confounding
 
 **Q10:** Final business recommendation?
 
-Unambiguously: ship the ad. Ad CR 2.555% vs PSA 1.785%, +0.77pp lift, P(Ad > PSA) = 100%, CI entirely above zero. All checks passed. Prioritise Tuesday–Wednesday, 11am–2pm for maximum impact.
+Unambiguously: ship the ad. Ad CR 2.555% vs PSA 1.785%, +0.77pp lift, P(Ad > PSA)  > 99.9%, CI entirely above zero. All checks passed. Prioritise Tuesday–Wednesday, 11am–2pm for maximum impact.
 
 **Q11:** A notebook is not production - how would this scale in a real company?
 
